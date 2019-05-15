@@ -1,0 +1,120 @@
+<!doctype Html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css\Style.css"/>
+<title>Contact Us</title>
+</head>
+
+
+<body>
+
+<h1>Painting&Construction Services</h1>
+<h2>Call us now for a free estimate! (324)2342-2342</h2>
+<ul>
+  <li><a href="Index.html">Home</a></li>
+ <li><a href="News.html">News</a></li>
+<li><a href="PreviousWork.html">Previous Works</a></li>
+<li><a href="Review.html">Reviews</a></li>
+  <li><a href="AboutUs.html">About Us</a></li>
+  <li><a href= "Contacts.html">Contact Us</a></li>
+</ul>
+
+
+
+
+<div id = "ContactUs">
+
+<h1>Contact Us</h1>
+<p>Fill this form to send us your request</p>
+<p>Or just call us right now to this number(786)(3243)</p>
+
+
+
+
+
+<form id="new record" action="process1.php" method="POST">
+     <table>
+    <tbody>
+        <tr>
+            <td>
+            <label>First Name:</label>
+            </td>
+            <td>
+            <input type="text" id = "first_name" name = "first_name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label>Last Name:</label>
+            </td>
+            <td>
+            <input type="text" id = "last_name" name = "last_name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label>E-Mail:</label>
+            </td>
+            <td>
+            <input type="text" id = "email" name = "email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label>Phone:</label>
+            </td>
+            <td>
+            <input type="text" id = "PhoneNumber" name = "PhoneNumber">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label>Address:</label>
+            </td>
+            <td>
+            <input type="text" id = "Address" name = "Address">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label>City:</label>
+            </td>
+            <td>
+            <input type="text" id = "City" name = "City">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label>State:</label>
+            </td>
+            <td>
+            <input type="text" id = "State" name = "State">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label>Zip:</label>
+            </td>
+            <td>
+            <input type="text"id = "ZIP" name = "ZIP">
+            </td>
+        </tr>
+    </tbody>
+    </table>
+    Information about the job:<br>
+    <textarea rows="5"; cols="40" id = "Information" name = "Information"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+</form>
+
+
+
+
+
+</div>
+<div id = "ContactPic">
+
+
+</div>
+
